@@ -1,3 +1,12 @@
+/*
+COLORS:
+
+Light green: #7ed56f;
+Medium green: #55c57a;
+Dark green: #28b485;
+
+*/
+
 *,
 *::after,
 *::before {
@@ -7,13 +16,13 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 62.5%;
 }
 
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  /* font-size: 1.6rem;*/
   line-height: 1.7;
   color: #777;
   padding: 3rem;
@@ -26,9 +35,9 @@ body {
   background-image: linear-gradient(
       to right bottom,
       rgba(126, 213, 111, 0.8),
-      rgba(40, 189, 131, 0.8)
+      rgba(40, 180, 131, 0.8)
     ),
-    url(https://www.exoticca.com/ca/blog/wp-content/uploads/2018/09/bigstock-Happy-Man-Traveler-Jumping-Wit-239063806-800x360.jpg);
+    url(https://github.com/afide26/Natours/blob/master/img/hero.jpg?raw=true);
   background-size: cover;
   background-position: top;
   position: relative;
@@ -36,7 +45,7 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
-.header__logo-box {
+..header__logo-box {
   position: absolute;
   top: 4rem;
   left: 4rem;
@@ -81,7 +90,7 @@ body {
 .heading-primary--sub {
   display: block;
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 1.75rem;
   animation: moveInRight 1s ease-out;
 }
@@ -143,12 +152,12 @@ body {
 }
 
 .btn:hover {
-  transform: translateY(-3px);
+  transform: translateY(-0.3rem);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .btn:active {
-  transform: translateY(-1px);
+  transform: translateY(-0.1rem);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
@@ -175,7 +184,7 @@ body {
 }
 
 .btn:hover::after {
-  transform: scaleX(1.5) scaleY(1.6);
+  transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
 }
 
